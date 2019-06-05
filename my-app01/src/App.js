@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from './componets/header';
 // import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.scss';
@@ -43,9 +44,7 @@ function App() {
           </ul>
         </div>
       </nav>
-      <header className="App-header">
-        <h1>This is a header</h1>
-      </header>
+      <Header />
       <main>
       <p>This is the body text</p>
       <footer>

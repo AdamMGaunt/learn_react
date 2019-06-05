@@ -1,3 +1,15 @@
 .App {
   text-align: center;
 }
+
+.feature-img {
+  position: relative;
+}
+.feature-img > div {
+  position: absolute;
+  top: 50vh;
+  left: 70vw;
+  width: 50vw;
+  background-color: rgba(27,54,93,0.8);
+  color: #fff;
+}

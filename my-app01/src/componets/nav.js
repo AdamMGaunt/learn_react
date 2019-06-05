@@ -10,15 +10,18 @@ const Nav = () => {
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav">
-          <li className="nav-item p-2 active">
-            <a className="nav-link " href="#top">Home <span className="sr-only">(current)</span> <i className="fa fa-chevron-down fa-xs"></i></a>
+          <li className="nav-item p-2">
+            <a className="nav-link " href="#top">Discover AU <span className="sr-only">(current)</span> <i className="fa fa-chevron-down fa-xs"></i></a>
           </li>
           <li className="nav-item p-2">
-            <a className="nav-link " href="#link">Link <i className="fa fa-chevron-down fa-xs"></i></a>
+            <a className="nav-link " href="#link">Programs & Courses <i className="fa fa-chevron-down fa-xs"></i></a>
+          </li>
+          <li className="nav-item p-2">
+            <a className="nav-link " href="#link">Admissions <i className="fa fa-chevron-down fa-xs"></i></a>
           </li>
           <li className="nav-item p-2 dropdown">
-            <a className="nav-link  dropdown-toggle" href="#dropdown" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown <i className="fa fa-chevron-down fa-xs"></i>
+            <a className="nav-link  dropdown-toggle" href="#/navbarDropdown" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Current Students <i className="fa fa-chevron-down fa-xs"></i>
             </a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
               <a className="dropdown-item" href="#action">Action</a>
@@ -26,6 +29,9 @@ const Nav = () => {
               <div className="dropdown-divider"></div>
               <a className="dropdown-item" href="#item">Something else here</a>
             </div>
+          </li>
+          <li className="nav-item p-2">
+            <a className="nav-link " href="#link">About AU <i className="fa fa-chevron-down fa-xs"></i></a>
           </li>
           <li className="nav-item ml-auto p-2">
             <a className="nav-link" href="#disabled"><i className="fa fa-comments"></i> help & contact</a>

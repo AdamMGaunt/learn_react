@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  font-family: 'Open Sans Regular', 'Open Sans Semibold', sans-serif;
+}
+h1, h2, h3, h4, h5 {
+  font-family: 'Open Sans Regular', 'Open Sans Semibold', sans-serif;
+}
+p {
+  font-family: Georgia, serif;
 }
 
 .feature-img {
@@ -18,7 +25,7 @@ section {
 }
 .icons i {
   border-radius: 50%;
-  background-color: grey;
+  @include gradients($au-dark-blue, 50);
   color: #fff;
   font-size: 3rem;
 }

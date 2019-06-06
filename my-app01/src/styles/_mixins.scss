@@ -26,3 +26,8 @@
 @mixin gradients($color, $value) {
   background-color: $color;
 }
+
+/* Breakpoints */
+@mixin breakpoint($size) {
+    @media only screen and (max-width : $size + px) { @content; }
+}

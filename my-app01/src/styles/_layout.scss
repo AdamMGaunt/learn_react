@@ -1,6 +1,7 @@
 .App {
-  text-align: center;
+  text-align: left;
   font-family: 'Open Sans Regular', 'Open Sans Semibold', sans-serif;
+  font-size: 1rem;
 }
 h1, h2, h3, h4, h5 {
   font-family: 'Open Sans Regular', 'Open Sans Semibold', sans-serif;
@@ -8,9 +9,17 @@ h1, h2, h3, h4, h5 {
 p {
   font-family: Georgia, serif;
 }
+p.lead {
+  font-family: 'Open Sans Regular', 'Open Sans Semibold', sans-serif;
+}
 
 .feature-img {
   position: relative;
+  height: 70vh;
+  background-image: url(images/feature-img-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .feature-img > div {
   position: absolute;
@@ -21,11 +30,37 @@ p {
   color: #fff;
 }
 section {
-  max-width: 80vw;
+
 }
+.container {
+  width: 80vw;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.container > div > h1 {
+  max-width: 55vw;
+}
+.container-dark {
+  width: 80vw;
+  padding-top: 0;
+}
+.container-dark > div > i {
+  margin-top: -36px;
+}
+.container-dark > div > h1 {
+  max-width: 55vw;
+}
+
 .icons i {
   border-radius: 50%;
   @include gradients($au-dark-blue, 50);
   color: #fff;
+  font-size: 3rem;
+}
+
+.icons > .light-icon {
+  border-radius: 50%;
+  @include gradients($au-white, 50);
+  color: #333;
   font-size: 3rem;
 }

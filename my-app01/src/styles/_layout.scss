@@ -16,7 +16,13 @@ p.lead {
   font-family: 'Open Sans Regular', 'Open Sans Semibold', sans-serif;
 }
 
-
+footer {
+  margin-top: 3rem;
+}
+footer .copyright {
+  color: $my-light-grey;
+  font-size: 0.8rem;
+}
 
 .feature-img {
   position: relative;
@@ -37,7 +43,7 @@ p.lead {
 
 .my-form {
   position: relative;
-  background-image: url(images/feature-img-01.jpg);
+  background-image: url(images/feature-img-02.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -57,8 +63,8 @@ section {
 
 }
 .container {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 .container > div > h1 {
   max-width: 55vw;
@@ -126,6 +132,19 @@ section {
   background-color: $au-white
 }
 
+// form
+.radio-input {
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0 0 0.25rem 0.25rem;
+}
+
+.radio-input-title {
+  margin-bottom: 0;
+  background-color: #e9ecef;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem 0.25rem 0 0;
+}
 
 
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */

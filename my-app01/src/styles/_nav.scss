@@ -11,3 +11,23 @@
 .navbar-dark {
   background-color: $au-dark-blue;
 }
+
+// footer navigation
+.footer-nav {
+  display: block;
+  color: $au-white;
+  font-size: 1rem;
+  padding-left: 0;
+}
+.footer-nav:first-child {
+  list-style-type: none;
+}
+.footer-nav li {
+  list-style-type: circle;
+  display: inline-block;
+}
+.footer-nav li i {
+  font-size: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}

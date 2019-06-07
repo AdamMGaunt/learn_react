@@ -234,26 +234,29 @@ function App() {
                   </div>
                 </div>
                 <div className="row">
-                  <div className="col-md-12 text-left">
-                  <div className="form-group">
-                    <p className="input-group-text"><span class="req-asterisk" aria-hidden="true">* </span>I am interested in</p>
-                    <div class="form-group">
-                      <div className="input-group">
-                        <div className="input-group-text form-control ">
-                          <input id="radio1" name="radio1" value="" type="radio" />
-                          <p className="p-3 mt-1">Option 1</p>
-                        </div>
+                  <div className="col-md-12 text-left form-group">
+                    <div className="radio-input-title">
+                      <p className="p-2"><span class="req-asterisk" aria-hidden="true">* </span>I am interested in</p>
+                    </div>
+                    <div class="radio-input">
+                      <div className="p-2">
+                        <input id="radio1" name="radio1" value="" type="radio" />
+                        <span className="p-3 mt-1">enrolling in a program</span>
                       </div>
-                      <div className="input-group">
-                        <div className="input-group-text form-control ">
-                          <input id="radio1" name="radio1" value="" type="radio" />
-                          <p className="p-3 mt-1">Option 1</p>
-                        </div>
+                      <div className="p-2">
+                        <input id="radio2" name="radio2" value="" type="radio" />
+                        <span className="p-3 mt-1">Learning more about AU</span>
                       </div>
                     </div>
                   </div>
+                  <div className="col-md-12 text-left form-group">
+                    <div className="">
+                      <input className="" id="radio2" name="radio2" value="" type="checkbox" />
+                      <span className="p-3 mt-1">Yes, I would like to recieve communitcations via email from Athabasca University</span>
+                    </div>
                   </div>
                 </div>
+                <button className="btn btn-primary btn-block" type="submit">Submit</button>
               </form>
             </div>
           </div>
@@ -261,7 +264,35 @@ function App() {
 
       </main>
       <footer>
-      <p>This is the footer text</p>
+        <section className="m-auto my-dark-grey text-white">
+          <div className="container">
+            <h4>Open, Flexable, and Everywhere</h4>
+            <ul className="footer-nav">
+              <li>
+                A-Z Index
+              </li>
+              <li>
+                <i className="fa fa-circle fa-xs"></i>Careers
+              </li>
+              <li>
+                <i className="fa fa-circle fa-xs"></i>Undergraduate Calender
+              </li>
+              <li>
+                <i className="fa fa-circle fa-xs"></i>Graduate Calender
+              </li>
+              <li>
+                <i className="fa fa-circle fa-xs"></i>Program Plans
+              </li>
+              <li>
+                <i className="fa fa-circle fa-xs"></i>Give to AU
+              </li>
+              <li>
+                <i className="fa fa-circle fa-xs"></i>Email Newsletter
+              </li>
+            </ul>
+            <p className="copyright"><i className="fa fa-copyright"></i> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          </div>
+        </section>
       </footer>
     </div>
   );

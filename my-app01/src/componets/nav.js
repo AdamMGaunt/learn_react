@@ -3,7 +3,9 @@ import React from 'react';
 const Nav = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark">
-      <a className="navbar-brand " href="#top">Navbar</a>
+      <a className="navbar-brand " href="#top">
+        <img src="" alt="Logo" className=""/>
+      </a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
@@ -34,7 +36,10 @@ const Nav = () => {
             <a className="nav-link " href="#link">About AU <i className="fa fa-chevron-down fa-xs"></i></a>
           </li>
           <li className="nav-item ml-auto p-2">
-            <a className="nav-link" href="#disabled"><i className="fa fa-comments"></i> help & contact</a>
+            <a className="nav-link" href="#myAU"><i className="fa fa-graduation-cap"></i></a>
+          </li>
+          <li className="nav-item p-2">
+            <a className="nav-link" href="#help"><i className="fa fa-comments"></i> help & contact</a>
           </li>
           <li className="nav-item p-2">
               <a href="#search" className="nav-link"><i className="fa fa-search"></i></a>
